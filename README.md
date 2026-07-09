@@ -5,14 +5,16 @@
 [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97-Transformers-blue.svg?style=flat-square)](https://huggingface.co/)
 
 An enterprise-grade computer vision and biometrics pipeline designed to execute pixel-level semantic crop lesion segmentation. Moving past passive "Yes/No" or bounding-box classification, this system extracts fine-grained edge matrices from high-resolution leaf canopies and maps active structural anomalies directly onto a continuous agricultural yield risk decay curve.
+---
+## 🚀 Live Demonstration
+
+![Walkthrough](demo.gif)
 
 ---
 
 ## 🚀 Architectural Blueprint
 
 The architecture implements a highly decoupled **Encoder-Decoder-Regression** pipeline optimized for high-fidelity spatial reasoning without structural coupling. 
-
-
 
 ### 1. Multi-Scale Attention Encoder (Backbone)
 The vision pipeline utilizes an attention-driven **Hierarchical Vision Transformer (SegFormer MiT-B0)** backbone. Unlike standard convolutional architectures (e.g., EfficientNet) that apply a localized receptive field, the Self-Attention mechanism preserves global structural context across multi-scale dimensions. The encoder processes input resolutions at $224 \times 224 \times 3$ and extracts four multi-scale hidden state tensors:
