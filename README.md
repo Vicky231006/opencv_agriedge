@@ -8,7 +8,7 @@ An enterprise-grade computer vision and biometrics pipeline designed to execute 
 ---
 ## 🚀 Live Demonstration
 
-![Walkthrough](demo1.gif)
+![Walkthrough](recording.gif)
 
 ---
 
